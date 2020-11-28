@@ -1,0 +1,22 @@
+{
+    "plugins": [
+        "simple-import-sort"
+    ],
+    "extends": [
+        "prettier",
+        "prettier/react",
+        "react-app",
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "simple-import-sort/sort": "warn",
+        "no-console": "off",
+        "sort-keys": "off",
+        "sort-imports": "off"
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    }
+}
