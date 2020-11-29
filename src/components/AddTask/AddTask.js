@@ -3,7 +3,7 @@ import React, { Fragment,useEffect, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { addTask } from '../../actions';
+import { addTask } from '../../actions/todoAction';
 import {ADD, ADD_TASK, PRIORITY, PRIORITY_VALUE} from '../../util/constatns';
 import { Button, Input, Label, RaidoGroup } from './styles';
 

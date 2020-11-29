@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList Component should render with given state from Redux store 1`] = `
+Array [
+  <div>
+    <li
+      className="sc-bdfBwQ CGZeV"
+    >
+      <span
+        className="sc-dlfnbm dhyx"
+      >
+        1
+         
+      </span>
+      <span
+        className="sc-gsTCUz gHDLyj"
+      >
+        task1
+        <span
+          className="sc-jSgupP cwbpyv"
+        >
+          Done
+        </span>
+      </span>
+      <button
+        className="sc-hKgILt bzvHwI"
+        onClick={[Function]}
+        size="40"
+      >
+        Undone
+      </button>
+      <button
+        className="sc-eCssSg cnoREb"
+        onClick={[Function]}
+        size="40"
+      >
+        Delete
+      </button>
+    </li>
+  </div>,
+  <div>
+    <li
+      className="sc-bdfBwQ CGZeV"
+    >
+      <span
+        className="sc-dlfnbm jAAmbI"
+      >
+        2
+         
+      </span>
+      <span
+        className="sc-gsTCUz byAzUf"
+      >
+        task2
+        
+      </span>
+      <button
+        className="sc-hKgILt fCEWoY"
+        onClick={[Function]}
+        size="40"
+      >
+        Done
+      </button>
+      <button
+        className="sc-eCssSg cnoREb"
+        onClick={[Function]}
+        size="40"
+      >
+        Delete
+      </button>
+    </li>
+  </div>,
+  <div>
+    <li
+      className="sc-bdfBwQ CGZeV"
+    >
+      <span
+        className="sc-dlfnbm cikqdF"
+      >
+        3
+         
+      </span>
+      <span
+        className="sc-gsTCUz cLFHbb"
+      >
+        task3
+        <span
+          className="sc-jSgupP cwbpyv"
+        >
+          Done
+        </span>
+      </span>
+      <button
+        className="sc-hKgILt bzvHwI"
+        onClick={[Function]}
+        size="40"
+      >
+        Undone
+      </button>
+      <button
+        className="sc-eCssSg cnoREb"
+        onClick={[Function]}
+        size="40"
+      >
+        Delete
+      </button>
+    </li>
+  </div>,
+]
+`;

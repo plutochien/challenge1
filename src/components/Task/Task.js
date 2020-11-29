@@ -3,7 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { deleteTask, toggleComplete } from '../../actions';
+import { deleteTask, toggleComplete } from '../../actions/todoAction';
 import { Badge, Button, DeleteButton, Order, Row, Text } from './styles';
 
 const Task = ({

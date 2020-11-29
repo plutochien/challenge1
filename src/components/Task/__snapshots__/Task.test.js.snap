@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTask Component should render with given state from Redux store 1`] = `
+<div>
+  <li
+    className="sc-bdfBwQ CGZeV"
+  >
+    <span
+      className="sc-dlfnbm jAAmbI"
+    >
+      2
+       
+    </span>
+    <span
+      className="sc-gsTCUz gKLpmB"
+    >
+      test task
+      <span
+        className="sc-jSgupP cwbpyv"
+      >
+        Done
+      </span>
+    </span>
+    <button
+      className="sc-hKgILt bzvHwI"
+      onClick={[Function]}
+      size="40"
+    >
+      Undone
+    </button>
+    <button
+      className="sc-eCssSg cnoREb"
+      onClick={[Function]}
+      size="40"
+    >
+      Delete
+    </button>
+  </li>
+</div>
+`;
+
+exports[`AddTask Component should render with given state from Redux store 2`] = `
+<div>
+  <li
+    className="sc-bdfBwQ CGZeV"
+  >
+    <span
+      className="sc-dlfnbm jAAmbI"
+    >
+      2
+       
+    </span>
+    <span
+      className="sc-gsTCUz byAzUf"
+    >
+      test task
+      
+    </span>
+    <button
+      className="sc-hKgILt fCEWoY"
+      onClick={[Function]}
+      size="40"
+    >
+      Done
+    </button>
+    <button
+      className="sc-eCssSg cnoREb"
+      onClick={[Function]}
+      size="40"
+    >
+      Delete
+    </button>
+  </li>
+</div>
+`;

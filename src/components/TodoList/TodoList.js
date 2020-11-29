@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, { Fragment, useEffect } from 'react';
 import { connect } from 'react-redux';
 
-import { fetchLocalData, toggleComplete } from '../../actions';
+import { fetchLocalData, toggleComplete } from '../../actions/todoAction';
 import { FILTERS } from '../../util/constatns';
 import Task from '../Task/Task';
 

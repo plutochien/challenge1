@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { setFilter } from '../../actions';
+import { setFilter } from '../../actions/todoAction';
 import { FILTERS, FILTERS_DESC } from '../../util/constatns';
 import { Button } from './styles';
 

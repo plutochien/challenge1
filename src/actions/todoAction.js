@@ -13,9 +13,10 @@ const generateId = list => {
   }
   return 1;
 };
+
 export const fetchLocalData = () => {
-  return (dispatch, getState) => {
-    if (!localStorage.todoList) {
+  return dispatch => {
+    if (!window.localStorage.todoList) {
       return;
     }
     dispatch({
@@ -27,7 +28,13 @@ export const fetchLocalData = () => {
 
 const savedData = () => {
   return (dispatch, getState) => {
-    localStorage.setItem('todoList', JSON.stringify(getState().todos.list));
+    if (window.localStorage) {
+      window.localStorage.setItem(
+        'todoList',
+        JSON.stringify(getState().todos.list),
+      );
+    }
+    return;
   };
 };
 

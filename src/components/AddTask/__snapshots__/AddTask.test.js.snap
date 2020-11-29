@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTask Component should render with given state from Redux store 1`] = `
+Array [
+  <input
+    className="sc-bdfBwQ dQhNnk"
+    placeholder="Add task"
+  />,
+  <div
+    className="sc-dlfnbm ggRcYP"
+  >
+    <input
+      checked={false}
+      className="sc-bdfBwQ eywrwi"
+      name="priority"
+      onChange={[Function]}
+      type="radio"
+      value="0"
+    />
+    <label
+      className="sc-hKgILt bbXJBi"
+    >
+      Urgent
+    </label>
+    <input
+      checked={true}
+      className="sc-bdfBwQ eywrwi"
+      name="priority"
+      onChange={[Function]}
+      type="radio"
+      value="1"
+    />
+    <label
+      className="sc-hKgILt hQUimg"
+    >
+      Medium
+    </label>
+    <input
+      checked={false}
+      className="sc-bdfBwQ eywrwi"
+      name="priority"
+      onChange={[Function]}
+      type="radio"
+      value="2"
+    />
+    <label
+      className="sc-hKgILt kHPCfL"
+    >
+      Low
+    </label>
+  </div>,
+  <button
+    className="sc-gsTCUz iWLRvp"
+    onClick={[Function]}
+    type="submit"
+  >
+    Add
+  </button>,
+]
+`;
