@@ -17,16 +17,19 @@ describe('AddTask Component', () => {
             id: 7,
             taskText: 'task1',
             isComplete: true,
+            priority: '0'
           },
           {
             id: 6,
             taskText: 'task2',
             isComplete: false,
+            priority: '1'
           },
           {
             id: 1,
             taskText: 'task3',
             isComplete: true,
+            priority: '2'
           },
         ],
       },

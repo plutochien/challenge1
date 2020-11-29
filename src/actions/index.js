@@ -6,21 +6,17 @@ import {
   TOGGLE_COMPLETE,
 } from './actionTypes';
 
-const generateID = list => {
+const generateId = list => {
   if (list.length) {
-    return (
-      Math.max.apply(
-        Math,
-        list.map(item => item.id),
-      ) + 1
-    );
+    const idList = list.map(item => item.id);
+    return Math.max(...idList) + 1;
   }
   return 1;
 };
 export const fetchLocalData = () => {
   return (dispatch, getState) => {
-    if(!localStorage.todoList){
-      return
+    if (!localStorage.todoList) {
+      return;
     }
     dispatch({
       type: RESET_TASKS,
@@ -35,14 +31,15 @@ const savedData = () => {
   };
 };
 
-export const addTask = taskText => {
+export const addTask = ({ taskText, priority }) => {
   return (dispatch, getState) => {
     dispatch({
       type: ADD_TASK,
       data: {
-        id: generateID(getState().todos.list),
-        taskText,
+        id: generateId(getState().todos.list),
+        taskText: taskText,
         isComplete: false,
+        priority: priority,
       },
     });
 
@@ -50,23 +47,18 @@ export const addTask = taskText => {
   };
 };
 export const deleteTask = id => {
-  return (dispatch, getState) => {
+  return dispatch => {
     dispatch({ type: DELETE_TASK, data: id });
     dispatch(savedData());
   };
 };
 
-export const reorderTasks = data => {
-  return (dispatch, getState) => {
-    dispatch({ type: RESET_TASKS, data });
+export const toggleComplete = id => {
+  return dispatch => {
+    dispatch({ type: TOGGLE_COMPLETE, data: id });
     dispatch(savedData());
   };
 };
-
-export const toggleComplete = id => ({
-  type: TOGGLE_COMPLETE,
-  id,
-});
 
 export const setFilter = filter => {
   return dispatch => {

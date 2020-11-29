@@ -6,7 +6,7 @@ import configureStore from 'redux-mock-store';
 import TodoList from './TodoList';
 const mockStore = configureStore([]);
 
-describe('AddTask Component', () => {
+describe('TodoList Component', () => {
     let store;
     let component;
     beforeEach(() => {
@@ -17,47 +17,53 @@ describe('AddTask Component', () => {
                         id: 7,
                         taskText: 'task1',
                         isComplete: true,
+                        priority: '0'
                     },
                     {
                         id: 6,
                         taskText: 'task2',
                         isComplete: false,
+                        priority: '1'
                     },
                     {
                         id: 1,
                         taskText: 'task3',
                         isComplete: true,
+                        priority: '2'
                     },
                 ],
             },
             filter: 'SHOW_ALL',
         });
         store.dispatch = jest.fn();
+        const listdata = [
+                {
+                    id: 7,
+                    taskText: 'task1',
+                    isComplete: true,
+                    priority: '2'
+                },
+                {
+                    id: 6,
+                    taskText: 'task2',
+                    isComplete: false,
+                    priority:'1'
+                },
+                {
+                    id: 1,
+                    taskText: 'task3',
+                    isComplete: true,
+                    priority:'0'
+                },
+            ];
         component = renderer.create(
             <Provider store={store}>
-                <TodoList />
+                <TodoList listdata={listdata} fetchLocalData={jest.fn} toggleComplete={jest.fn}/>
             </Provider>,
         );
     });
 
-    it.skip('should render with given state from Redux store', () => {
-        jest.mock('react-beautiful-dnd', () => ({
-            Droppable: ({ children }) => children({
-                draggableProps: {
-                    style: {},
-                    ref: jest.fn()
-                },
-                innerRef: jest.fn(),
-            }, {}),
-            Draggable: ({ children }) => children({
-                draggableProps: {
-                    style: {},
-                    ref: jest.fn()
-                },
-                innerRef: jest.fn(),
-            }, {}),
-            DragDropContext: ({ children }) => children,
-        }));
+    it('should render with given state from Redux store', () => {
         expect(component.toJSON()).toMatchSnapshot();
     });
 

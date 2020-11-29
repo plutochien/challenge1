@@ -21,10 +21,20 @@ export const Text = styled.span`
   word-break: break-all;
   text-decoration: ${props =>
     props.isComplete ? 'line-through #cd5c5c' : 'none'};
+  ${props =>
+    props.priority === '0' &&
+    `
+         color: #B10DC9;
+    `}
+  ${props =>
+    props.priority === '2' &&
+    `
+         color: #aaa;
+    `}
 `;
 
 export const Order = styled.span`
-  background: #007bff;
+  background: #0c5460;
   border-radius: 15px;
   color: #ffffff;
   display: inline-block;
@@ -33,7 +43,17 @@ export const Order = styled.span`
   margin-right: 15px;
   text-align: center;
   width: 30px;
-  font-weight:200px;
+  font-weight: 200px;
+  ${props =>
+    props.priority === '0' &&
+    `
+           background: #B10DC9;
+    `}
+  ${props =>
+    props.priority === '2' &&
+    `
+           background: #aaa;
+    `}
 `;
 
 export const Button = styled.button`
@@ -54,8 +74,8 @@ export const Button = styled.button`
 
 export const DeleteButton = styled.button`
   color: white;
-  background-color: #DC354A;
-  border-color: #DC354A;
+  background-color: #dc354a;
+  border-color: #dc354a;
   text-align: center;
   vertical-align: middle;
   font-weight: 400;
@@ -69,7 +89,7 @@ export const DeleteButton = styled.button`
 `;
 
 export const Badge = styled.span`
-  color: #0c5460 ;
+  color: #0c5460;
   background-color: #ffc107;
   border-color: #ffc107;
   display: inline-block;

@@ -22,7 +22,7 @@ const todosReducer = (state = initialState, action) => {
         list: state.list.filter(item => item.id !== action.data),
       };
     case TOGGLE_COMPLETE: {
-      const itemIndex = state.list.findIndex(item => item.id === action.id);
+      const itemIndex = state.list.findIndex(item => item.id === action.data);
       return {
         ...state,
         list: state.list.map((item, index) => {

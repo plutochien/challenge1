@@ -7,16 +7,16 @@ import { deleteTask, toggleComplete } from '../../actions';
 import { Badge, Button, DeleteButton, Order, Row, Text } from './styles';
 
 const Task = ({
-  data: { id, isComplete, taskText, order },
+  data: { id, isComplete, taskText, order, priority },
   deleteTask,
   toggleComplete,
 }) => {
   return (
     <div>
       <Row>
-        <Order>{order} </Order>
-        <Text isComplete={isComplete}>
-          {taskText}
+        <Order priority={priority}>{order} </Order>
+        <Text isComplete={isComplete} priority={priority}>
+          {taskText}-{priority}
           {isComplete ? <Badge>Done</Badge> : ''}
         </Text>
 

@@ -16,7 +16,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   min-height: 500px;
-  max-width: 900px;
+  max-width: 1000px;
   background: #d1ecf1;
   border-radius: 25px;
 `;
@@ -34,6 +34,7 @@ export const Main = styled.div`
 `;
 
 export const Footer = styled.footer`
+  display: flex;
   margin-top: auto;
   padding: 10px 15px;
   text-align: center;

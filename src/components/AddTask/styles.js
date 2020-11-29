@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Input = styled.input`
-  width: 80%;
   border: 0;
-  height: 40px;
+  height: ${props => (props.type === 'radio' ? '30px' : '40px')};
   border-radius: 5px;
   text-indent: 10px;
   outline: none;
   font-size:20px;
+  width: ${props => (props.type === 'radio' ? '40px' : '55%')};
 }
 `;
 
@@ -22,4 +22,24 @@ export const Button = styled.button`
   outline: none;
   cursor: pointer;
   font-size: 20px;
+`;
+
+export const RaidoGroup = styled.div`
+  margin-left: 10px;
+`;
+
+export const Label = styled.label`
+  vertical-align: Super;
+  font-size: 18px;
+  color: #0c5460;
+    ${props =>
+      props.priority === '0' &&
+      `
+           color: #B10DC9;
+    `}
+    ${props =>
+      props.priority === '2' &&
+      `
+           color: #888888;
+    `};
 `;

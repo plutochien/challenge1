@@ -6,7 +6,7 @@ import configureStore from 'redux-mock-store';
 import App from './App';
 const mockStore = configureStore([]);
 
-describe('AddTask Component', () => {
+describe('App Component', () => {
   let store;
   let component;
   beforeEach(() => {
@@ -17,16 +17,19 @@ describe('AddTask Component', () => {
             id: 7,
             taskText: 'task1',
             isComplete: true,
+            priority: '0'
           },
           {
             id: 6,
             taskText: 'task2',
             isComplete: false,
+            priority: '1'
           },
           {
             id: 1,
             taskText: 'task3',
             isComplete: true,
+            priority: '2'
           },
         ],
       },
@@ -40,22 +43,7 @@ describe('AddTask Component', () => {
     );
   });
 
-  it.skip('should render with given state from Redux store', () => {
-    jest.mock('react-beautiful-dnd', () => ({
-      Droppable: ({ children }) => children({
-        draggableProps: {
-          style: {},
-        },
-        innerRef: jest.fn(),
-      }, {}),
-      Draggable: ({ children }) => children({
-        draggableProps: {
-          style: {},
-        },
-        innerRef: jest.fn(),
-      }, {}),
-      DragDropContext: ({ children }) => children,
-    }));
+  it('should render with given state from Redux store', () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 })
