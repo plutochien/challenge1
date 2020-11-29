@@ -16,7 +16,7 @@ const Task = ({
       <Row>
         <Order priority={priority}>{order} </Order>
         <Text isComplete={isComplete} priority={priority}>
-          {taskText}-{priority}
+          {taskText}
           {isComplete ? <Badge>Done</Badge> : ''}
         </Text>
 
