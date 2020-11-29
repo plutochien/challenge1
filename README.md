@@ -4,7 +4,7 @@
 ### 3. Data is stored in local storage
 ### 4. Deploy to AWS http://plutotestbucket.s3-website-ap-southeast-2.amazonaws.com/
 
-
+[Screen-Shot-2020-11-29-at-3-39-41-pm.png](https://postimg.cc/9rRP8WL4)
 
 # Getting Started with Create React App
 
