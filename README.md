@@ -1,3 +1,11 @@
+# Todo List React App Design Concept
+### 1. Pre-commit hook husky with prettier and eslint
+### 2. Using redux and redux-thunk for state managment 
+### 3. Data is stored in local storage
+### 4. Deploy to AWS http://plutotestbucket.s3-website-ap-southeast-2.amazonaws.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
