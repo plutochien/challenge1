@@ -1,9 +1,11 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 
-import filterReducer from './filterReducer'
-import todosReducer from './todosReducer'
+import usersReducer from './userReducer';
+import postReducer from './postReducer';
+import commentReduer from './commentReducer';
 
 export default combineReducers({
-    todos: todosReducer,
-    filter: filterReducer
-})
+  usersReducer: usersReducer,
+  postsReducer: postReducer,
+  commentsReducer: commentReduer,
+});

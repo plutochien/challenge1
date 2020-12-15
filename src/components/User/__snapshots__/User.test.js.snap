@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ bIfdOm"
+>
+  <a
+    href="/user/1"
+    onClick={[Function]}
+  >
+    <img
+      alt="profile photo"
+      className="sc-gsTCUz iMTnOU"
+      src="https://avatars.dicebear.com/api/avataaars/1.svg"
+    />
+    <div
+      className="sc-dlfnbm dolPKv"
+    >
+      <div
+        className="sc-hKgILt eyiifF"
+      >
+        test
+      </div>
+      <div
+        className="sc-hKgILt eBFicf"
+      >
+        @test username
+      </div>
+    </div>
+  </a>
+</div>
+`;

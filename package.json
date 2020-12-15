@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "axios": "^0.21.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.2.1"
   },
@@ -28,6 +30,7 @@
     "lint-staged": "^10.5.2",
     "node-sass": "^4.14.0",
     "prettier": "^2.0.5",
+    "react-loader-spinner": "^3.1.14",
     "react-redux": "^7.2.2",
     "react-test-renderer": "16.8.6",
     "redux": "^4.0.5",
@@ -35,7 +38,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",

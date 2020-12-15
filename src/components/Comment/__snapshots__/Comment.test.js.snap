@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ fdXfCA"
+>
+  test body
+</div>
+`;

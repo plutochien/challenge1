@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ jHdtWi"
+>
+  <div
+    className="sc-dlfnbm cDmebw"
+  >
+    <img
+      alt="profile photo"
+      className="sc-gsTCUz ldecOQ"
+      src="https://avatars.dicebear.com/api/avataaars/1.svg"
+    />
+    <div
+      className="sc-gKsewC buotSy"
+    >
+      Leanne Graham
+    </div>
+    <div
+      className="sc-gKsewC fvhoIo"
+    >
+      @Bret
+    </div>
+  </div>
+</div>
+`;

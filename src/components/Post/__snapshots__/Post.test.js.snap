@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ exZruV"
+>
+  <div
+    className="sc-gsTCUz iPsnom"
+  >
+    test title
+  </div>
+  <div
+    className="sc-dlfnbm bfzwnW"
+  >
+    test body
+  </div>
+  <button
+    className="sc-hKgILt khksFS"
+    onClick={[Function]}
+  >
+    <img
+      alt="expand"
+      src="expand_arrow.svg"
+    />
+  </button>
+</div>
+`;

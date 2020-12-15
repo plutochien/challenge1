@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserPost Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ gcIgTB"
+>
+  <div
+    className="sc-dlfnbm kafrza"
+  >
+    <div
+      className="sc-hKgILt dkOHOD"
+    >
+      ullam ut quidem id aut vel consequuntur
+    </div>
+    <div
+      className="sc-eCssSg cGrduj"
+    >
+      debitis eius sed qadipisci repudiandae
+    </div>
+    <button
+      className="sc-jSgupP dZKGaM"
+      onClick={[Function]}
+    >
+      <img
+        alt="expand"
+        src="expand_arrow.svg"
+      />
+    </button>
+  </div>
+  <button
+    className="sc-jSgupP dZKGaM"
+    onClick={[Function]}
+  >
+    <img
+      alt="show all"
+      src="expand_arrow.svg"
+    />
+     
+    <span
+      className="sc-gsTCUz jqfHj"
+    >
+      show all
+    </span>
+  </button>
+</div>
+`;

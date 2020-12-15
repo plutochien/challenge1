@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ aFoLh"
+>
+  <nav>
+    <ul
+      className="sc-dlfnbm hBbffj"
+    >
+      <li
+        className="sc-hKgILt dfmPYB"
+      >
+        <a
+          aria-current={null}
+          href="/users"
+          onClick={[Function]}
+        >
+          <img
+            alt="User Icons"
+            src="users.svg"
+          />
+          <span>
+            Users
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section
+    className="sc-gsTCUz dDMyAY"
+  >
+    <div
+      className="sc-eCssSg WlkaQ"
+    >
+      <a
+        href="/user/1"
+        onClick={[Function]}
+      >
+        <img
+          alt="profile photo"
+          className="sc-jSgupP bJNNzv"
+          src="https://avatars.dicebear.com/api/avataaars/1.svg"
+        />
+        <div
+          className="sc-gKsewC brHITq"
+        >
+          <div
+            className="sc-iBPRYJ jHmLLy"
+          >
+            Leanne Graham
+          </div>
+          <div
+            className="sc-iBPRYJ eipRqs"
+          >
+            @Bret
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
+`;

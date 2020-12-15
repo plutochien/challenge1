@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Component should render with given state from Redux store 1`] = `
+<nav>
+  <ul
+    className="sc-bdfBwQ bcquLY"
+  >
+    <li
+      className="sc-gsTCUz eHhtpo"
+    >
+      <a
+        aria-current={null}
+        href="/users"
+        onClick={[Function]}
+      >
+        <img
+          alt="User Icons"
+          src="users.svg"
+        />
+        <span>
+          Users
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

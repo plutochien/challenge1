@@ -1,12 +1,17 @@
-# Todo List React App Design Concept
-### 1. Pre-commit hook husky with prettier and eslint
-### 2. Using redux and redux-thunk for state managment 
-### 3. Jest snapshot unit test
-### 4. Data is stored in local storage
-### 5. Deploy to AWS http://plutotestbucket.s3-website-ap-southeast-2.amazonaws.com/
+# Challenge 1 Design Concept
+### 1. React/ Reducx/ Redux-thunk/ React hooks 
+### 2. Jest snapshot unit test
+### 3. Desktop and Mobile view
+### 4. Pre-commit hook husky with prettier and eslint
+### 5. Demo on AWS http://plutoc1.s3-website-ap-southeast-2.amazonaws.com/
 
-[![screenshot](http://plutotestbucket.s3-website-ap-southeast-2.amazonaws.com/screenshot.png)](#features)
+### Desktop
+[![screenshot](http://plutoc1.s3-website-ap-southeast-2.amazonaws.com/d1.png)](#features)
+[![screenshot](http://plutoc1.s3-website-ap-southeast-2.amazonaws.com/d2.png)](#features)
 
+### Mobile
+[![screenshot](http://plutoc1.s3-website-ap-southeast-2.amazonaws.com/m1.png)](#features)
+[![screenshot](http://plutoc1.s3-website-ap-southeast-2.amazonaws.com/m2.png)](#features)
 
 # Getting Started with Create React App
 

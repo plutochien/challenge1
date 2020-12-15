@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserPage Component should render with given state from Redux store 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="sc-bdfBwQ jHdtWi"
+  >
+    <div
+      className="sc-dlfnbm cDmebw"
+    >
+      <img
+        alt="profile photo"
+        className="sc-gsTCUz ldecOQ"
+        src="https://avatars.dicebear.com/api/avataaars/2.svg"
+      />
+      <div
+        className="sc-gKsewC buotSy"
+      />
+      <div
+        className="sc-gKsewC fvhoIo"
+      >
+        @undefined
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-iBPRYJ jYonTn"
+  >
+    <div
+      className="sc-pFZIQ heJqJd"
+    >
+      <div
+        className="sc-jrAGrp gDpZHa"
+      >
+        ullam ut quidem id aut vel consequuntur
+      </div>
+      <div
+        className="sc-kEjbxe bKFDpe"
+      >
+        debitis eius sed qadipisci repudiandae
+      </div>
+      <button
+        className="sc-iqHYGH wkBod"
+        onClick={[Function]}
+      >
+        <img
+          alt="expand"
+          src="expand_arrow.svg"
+        />
+      </button>
+    </div>
+    <button
+      className="sc-iqHYGH wkBod"
+      onClick={[Function]}
+    >
+      <img
+        alt="show all"
+        src="expand_arrow.svg"
+      />
+       
+      <span
+        className="sc-fubCfw iwfPqY"
+      >
+        show all
+      </span>
+    </button>
+  </div>
+</div>
+`;
